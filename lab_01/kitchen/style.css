@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: url("images/dark-wood.jpg");
     margin: 0px;
@@ -122,4 +123,130 @@ footer {
     padding: 10px;
     color: lightgray;
     text-align: center;
+=======
+body {
+    background-image: url("images/dark-wood.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(images/header-page.jpg);
+    padding: 25px 3px;
+    width: 944px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+    height: 100px;
+}
+
+h1 {
+    text-align: right;
+}
+
+nav {
+    background-image: url(images/header-page.jpg);
+    display: flex;
+    padding: 3px;
+    width: 944px;
+    margin: 3px auto;
+
+}
+
+nav>ul {
+    margin: 2px;
+    padding: 0px;
+    display: block;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+nav>ul>li>a {
+    font-size: 18px;
+}
+
+a, a:link, a:active, a:visited {
+    color: white;  
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    transition-duration: 0.4s;
+}
+
+main {
+    background-color: white;
+    margin: 5px 284.6px 3px 284.6px;
+    padding: 20px;
+}
+
+figure {
+    border: 1px solid lightgrey;
+    display: grid;
+    margin: 0px 608px 0px 0px;
+}
+
+img {
+    padding: 5px 5px 0px 5px;
+}
+
+figcaption {
+    color: rgb(81, 81, 81);
+    display: flex;
+    padding: 5px 0px 10px 5px;
+}
+
+div>h2 {
+    color: grey;
+    position: relative;
+    bottom: 225px;
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+div>h3 {
+    color: rgb(230, 230, 0);
+    position: relative;
+    bottom: 225px;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+p {
+    color: grey;
+    text-align: justify;
+    width: 280px;
+    position: relative;
+    bottom: 230px;
+    left: 325px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: gray;
+    padding: 10px;
+    color: lightgray;
+    text-align: center;
+>>>>>>> bd709f8010d9dca7c9d675ac47e650a3bec579af
 }
