@@ -1,1 +1,1 @@
-[Cars](https://dinozavr1k.github.io/frontend_labs/lab_01/cars/).
+[lab_01 Cars](https://dinozavr1k.github.io/frontend_labs/lab_01/cars/).
