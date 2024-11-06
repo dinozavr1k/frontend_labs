@@ -1,1 +1,1 @@
-My favorite search engine is [Cars](C:/Users/danii/OneDrive/Desktop/frontend_labs/lab_01/cars/index.html).
+My favorite search engine is [Cars](https://duckduckgo.com).
