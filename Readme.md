@@ -1,1 +1,1 @@
-My favorite search engine is [Cars](https://duckduckgo.com).
+My favorite search engine is [Cars](https://dinozavr1k.github.io/frontend_labs/lab_01/cars/).
