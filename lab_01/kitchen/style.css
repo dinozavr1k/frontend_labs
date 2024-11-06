@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     background-image: url("images/dark-wood.jpg");
     margin: 0px;
@@ -27,7 +26,6 @@ nav {
     padding: 3px;
     width: 944px;
     margin: 3px auto;
-
 }
 
 nav>ul {
@@ -45,9 +43,8 @@ nav>ul>li>a {
 }
 
 a, a:link, a:active, a:visited {
-    color: white;  
-    padding: 10px 10px 10px 10px;
-    margin: 20px;
+    color: rgb(255, 255, 255);  
+    padding: 10px 30px 10px 30px;
     text-decoration: none;
 }
 
@@ -58,14 +55,16 @@ a:hover {
 
 main {
     background-color: white;
-    margin: 5px 284.6px 3px 284.6px;
+    margin: 5px 284.6px 3px;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 figure {
     border: 1px solid lightgrey;
-    display: grid;
-    margin: 0px 608px 0px 0px;
+    margin: 0px 60px 0px 0px;
+    float: left;
 }
 
 img {
@@ -80,173 +79,79 @@ figcaption {
 
 div>h2 {
     color: grey;
-    position: relative;
-    bottom: 225px;
     margin: 0px;
     font-size: 30px;
     text-align: center;
+    width: fit-content;
 }
 
-div>h3 {
+h3 {
     color: rgb(230, 230, 0);
-    position: relative;
-    bottom: 225px;
     font-size: 20px;
-    margin: 0px;
-    text-align: center;
+    margin: 5px 0px;
+    width: fit-content;
 }
 
 p {
     color: grey;
-    text-align: justify;
-    width: 280px;
-    position: relative;
-    bottom: 230px;
-    left: 325px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    background-color: gray;
-    padding: 10px;
-    color: lightgray;
-    text-align: center;
-=======
-body {
-    background-image: url("images/dark-wood.jpg");
     margin: 0px;
+}
+
+.sous1 {
+    height: 300px;
+}
+
+.popular-recipes>h2 {
+    color: rgb(218, 79, 100);
+    width: min-content;
+    line-height: 1em;
+}
+
+.popular-recipes>ul {
+    list-style-type: none;
+    padding: 0px 90px 0px 0px;
+    width: 150px;
+}
+
+aside li {
+    border-bottom: 1px solid lightgrey;
+}
+
+.popular-recipes {
+    line-height: 2em;
+}
+
+.popular-recipes>ul>li>a {
+    color: rgb(218, 79, 100);
     padding: 0px;
 }
 
-header {
-    background-image: url(images/header-page.jpg);
-    padding: 25px 3px;
-    width: 944px;
-    margin: 0px auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: 30px;
-    height: 100px;
-}
-
-h1 {
-    text-align: right;
-}
-
-nav {
-    background-image: url(images/header-page.jpg);
-    display: flex;
-    padding: 3px;
-    width: 944px;
-    margin: 3px auto;
-
-}
-
-nav>ul {
-    margin: 2px;
-    padding: 0px;
-    display: block;
-}
-
-nav>ul>li {
-    display: inline-block;
-}
-
-nav>ul>li>a {
-    font-size: 18px;
-}
-
-a, a:link, a:active, a:visited {
-    color: white;  
-    padding: 10px 10px 10px 10px;
-    margin: 20px;
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
+.popular-recipes>ul>li>a:hover {
+    color: rgb(255, 0, 89);
     transition-duration: 0.4s;
 }
 
-main {
-    background-color: white;
-    margin: 5px 284.6px 3px 284.6px;
-    padding: 20px;
-}
-
-figure {
-    border: 1px solid lightgrey;
-    display: grid;
-    margin: 0px 608px 0px 0px;
-}
-
-img {
-    padding: 5px 5px 0px 5px;
-}
-
-figcaption {
-    color: rgb(81, 81, 81);
+article>div {
     display: flex;
-    padding: 5px 0px 10px 5px;
+    flex-direction: column;
+    padding: 0px 20px 0px 0px;
 }
 
-div>h2 {
-    color: grey;
-    position: relative;
-    bottom: 225px;
-    margin: 0px;
-    font-size: 30px;
-    text-align: center;
-}
-
-div>h3 {
-    color: rgb(230, 230, 0);
-    position: relative;
-    bottom: 225px;
-    font-size: 20px;
-    margin: 0px;
-    text-align: center;
-}
-
-p {
-    color: grey;
-    text-align: justify;
+article>p {
+    display: flex;
     width: 280px;
-    position: relative;
-    bottom: 230px;
-    left: 325px;
+    line-height: 1.5em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.courses {
+    border-right: 1px solid lightgrey;
+}
 
 footer {
     background-color: gray;
     padding: 10px;
+    font-size: 16px;
     color: lightgray;
     text-align: center;
->>>>>>> bd709f8010d9dca7c9d675ac47e650a3bec579af
+    font-weight: 600;
 }
