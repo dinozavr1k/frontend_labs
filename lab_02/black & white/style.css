@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background: url("img/apples.jpg") center no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+header>p {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin: 300px;
+    position: relative;
+    top: -60px;
+}
+
+.black {
+    margin-right: 10px;
+}
+
+.ampersand {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2em;
+}
+
+.white {
+    margin-left: 10px;
+}
+
+h2 {
+    margin-top: -250px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -120px;
+    font-size: 15px;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>h3 {
+    color: white;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+nav>ul {
+    display: flex;
+    margin: 0px;
+    padding: 7px;
+    height: 20px;
+    line-height: 20px;
+}
+
+nav>ul>li {
+    display: inline-block;    
+}
+
+nav>ul>li>a {
+    text-transform: capitalize;
+}
+
+a, a:link, a:active, a:visited {
+    color: white;  
+    padding: 30px 30px 30px 30px;
+    font-size: 1.em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lime;
+}
+
+.pp {
+    font-size: 100px;
+    word-spacing: 20px;
+}
+
+.show-more-button {
+    background-color: rgba(0, 0, 0, 0.338);
+    border: 3px solid white;
+    color: white;
+    padding: 15px 35px 15px 35px;
+    width: 280px;
+    margin: 90px auto;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    align-items: center; 
+    height: 5vh; 
+    margin-top: 100px;
+}
+
+.two-text {
+    margin: 70px 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.pad {
+    padding: 0px 60px;
+}
+
+.dolor {
+    margin: 10px;
+    padding: 10px;
+    width: 540px;
+    font-size: 25px;
+}
+
+.amet {
+    margin: 10px;
+    padding: 10px   ;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+
+
+
+.centr-elements {
+    background-color: rgba(211, 211, 211, 0.350);
+    margin: 0 auto;
+}
+
+.centr-text {
+    font-size: 25px;
+    text-align: center;
+    padding: 150px 0px 100px 0px;
+}
+
+.section1 {
+    display: flex;
+    margin: 0px 50px;
+}
+
+.section1 div p {
+    width: 480px;
+    text-align: center;
+}
+
+
+.section2 {
+    display: flex;
+    margin: 50px;
+    flex-direction: row-reverse;
+}
+
+.section2 div p {
+    width: 480px;
+    text-align: center;
+}
+
+
+.bg-image {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    text-shadow: 1px 1px black;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.first-img {
+    background-image: url("img/sample.jpg");
+}
+
+.second-img {
+    background-image: url("img/sample3.jpg");
+}
+
+
+.likes {
+    position: absolute;
+    right: 0;
+    margin: 15px;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.366);
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.country {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin: 10px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
