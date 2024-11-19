@@ -2,48 +2,33 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
 }
 
-header {
-    background-color: #0a1223;
-    text-align: center;
-    padding: 40px 40px;
-}
-
 body {
     margin: 0;
     background-color: #0a1223;
     color: #fff;
 }
 
-a, a:link, a:active, a:visited {
-    color: #5d5d5d;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 30px 10px 30px 10px;
-}
-
-a:hover {
-    color: #54597d;
+header {
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
 }
 
 nav {
-    padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    position: absolute;
-    top: 30px;
-    right: 30px;
     display: flex;
+    gap: 20px;
 }
 
-nav>ul>li {
-    margin-left: 20px;  
-}
 
 nav ul li a {
     color: #c0c0c0;
@@ -54,40 +39,86 @@ nav ul li a:hover {
     color: #54597d;
 }
 
+a, a:link, a:active, a:visited {
+    color: #5d5d5d;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 20px;
+}
+
+a:hover {
+    color: #54597d;
+}
+
 h1 {
     color: #ddd;
     font-size: 70px;
 }
 
-main {
-    width: 90%;
-    margin: 0 auto;
+
+
+
+
+.info {
+    padding: 100px 200px;
 }
+
+.reverse-flex>div {
+    flex: 1;
+}
+
+.flex>div {
+    flex: 1;
+}
+
 
 .reverse-flex {
     display: flex;
     flex-direction: row-reverse;
-}
-
-h2 {
-    font-size: 40px;
-    background: linear-gradient(to-right, #fff 0%, #000 100%);
+    gap: 50px;
+    margin-bottom: 50px;
 }
 
 .flex {
     display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
 }
 
 
+.planets {
+    display: flex;
+    align-items: center;
+}
+
+.images {
+    height: 250px;
+}
+
+.title {
+    font-size: 40px;
+    background: linear-gradient(to right, white 0%, rgb(49, 49, 49) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    color: #5d5d5d;
+    text-indent: 20px;
+    text-align: justify;
+}
 
 
+@media /*tablet*/ (min-width: 768px) {
+    h1 {
+        font-size: 75px;
+    }
 
-
-
-
-
-
-
+    /*nav {
+        display: flex;
+        justify-content: center;
+    }*/
+}
 
 
 
