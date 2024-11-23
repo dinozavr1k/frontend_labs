@@ -241,7 +241,6 @@ a:hover {
 
     .up a {
         color: white;
-        text-shadow: 2px 0px 2px black;
         display: flex;
     }
 }
