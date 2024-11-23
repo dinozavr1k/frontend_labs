@@ -73,7 +73,7 @@ nav>.links-first>li>a {
     text-transform: capitalize;
 }
 
-a, a:link, a:active, a:visited {
+.upper, .upper:link, .upper:active, .upper:visited {
     color: white;  
     padding: 30px 30px 30px 30px;
     font-size: 1.em;
@@ -81,7 +81,7 @@ a, a:link, a:active, a:visited {
     text-decoration: none;
 }
 
-a:hover {
+.upper:hover {
     color: lime;
 }
 
@@ -340,4 +340,9 @@ ul {
     cursor: pointer;
     padding-top: 20px;
     text-transform: capitalize;
+}
+
+.down {
+    text-decoration: none;
+    color: black;
 }
