@@ -13,12 +13,11 @@ header {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
-    height: 300px;
 }
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
 }
 
 nav ul {
@@ -28,7 +27,6 @@ nav ul {
     display: flex;
     gap: 20px;
 }
-
 
 nav ul li a {
     color: #c0c0c0;
@@ -50,9 +48,10 @@ a:hover {
     color: #54597d;
 }
 
-h1 {
+
+.facts {
     color: #ddd;
-    font-size: 70px;
+    font-size: 40px;
 }
 
 
@@ -108,23 +107,141 @@ h1 {
     text-align: justify;
 }
 
+.butt {
+    display: none;
+}
 
-@media /*tablet*/ (min-width: 768px) {
-    h1 {
-        font-size: 75px;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .facts {
+        font-size: 35px;
     }
 
-    /*nav {
+    nav {
         display: flex;
         justify-content: center;
-    }*/
+        margin-bottom: 60px;
+    }
+
+    h1 {
+        margin: 100px 60px 0px 60px;
+        display: inline-block;
+    }
+    
+    .reverse-flex {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .planets {
+        display: flex;
+        justify-content: center;
+    }
+
+    .butt {
+        display: none;
+    }
 }
 
 
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    body {
+        background-color: white !important;
+    }
 
+    header {
+        padding-top: 20px;
+    }
 
+    nav {
+        display: flex;
+        justify-content: left;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: larger;
+        width: -webkit-fill-available;
+    }
 
+    nav ul li a {
+        color: #c0c0c0;
+        transition: color 0.4s ease;
+    }
+    
+    nav ul li a:hover {
+        color: #54597d;
+        font-weight: bold;
+    }
 
+    .bord {
+        border-bottom: 2px lightgray solid;
+        width: -webkit-fill-available;
+        text-align: start;
+        padding-bottom: 20px;
+    }
 
+    h1 {
+        color: black;
+    }
 
+    .info {
+        padding: 100px 100px;
+    }
+
+    .title {
+        -webkit-text-fill-color: #484747
+    }
+
+    .images {
+        height: 180px;
+    }
+
+    .reverse-flex {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .planets {
+        display: flex;
+        justify-content: center;
+    }
+
+    .butt {
+        padding: 20px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .up {
+        border-radius: 50%;
+        border: none;
+        background-color: #5ebcff;
+        cursor: pointer;
+        font-size: large;
+        box-shadow: 10px 10px 10px lightgray;
+    }
+
+    .up a {
+        color: white;
+        text-shadow: 2px 0px 2px black;
+        display: flex;
+    }
+}
