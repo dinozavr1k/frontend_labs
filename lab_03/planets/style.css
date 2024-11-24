@@ -237,6 +237,7 @@ a:hover {
         cursor: pointer;
         font-size: large;
         box-shadow: 10px 10px 10px lightgray;
+        padding: 0px;
     }
 
     .up a {
