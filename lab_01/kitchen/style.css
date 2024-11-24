@@ -61,6 +61,26 @@ main {
     justify-content: space-between;
 }
 
+.courses {
+    border-right: 1px solid lightgrey;
+}
+
+article>div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 0px;
+}
+
+article>p {
+    display: flex;
+    width: 280px;
+    line-height: 1.5em;
+}
+
+.sous1 {
+    height: 300px;
+}
+
 figure {
     border: 1px solid lightgrey;
     margin: 0px 60px 0px 0px;
@@ -97,8 +117,12 @@ p {
     margin: 0px;
 }
 
-.sous1 {
-    height: 300px;
+aside li {
+    border-bottom: 1px solid lightgrey;
+}
+
+.popular-recipes {
+    line-height: 2em;
 }
 
 .popular-recipes>h2 {
@@ -113,14 +137,6 @@ p {
     width: 150px;
 }
 
-aside li {
-    border-bottom: 1px solid lightgrey;
-}
-
-.popular-recipes {
-    line-height: 2em;
-}
-
 .popular-recipes>ul>li>a {
     color: rgb(218, 79, 100);
     padding: 0px;
@@ -129,22 +145,6 @@ aside li {
 .popular-recipes>ul>li>a:hover {
     color: rgb(255, 0, 89);
     transition-duration: 0.4s;
-}
-
-article>div {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 20px 0px 0px;
-}
-
-article>p {
-    display: flex;
-    width: 280px;
-    line-height: 1.5em;
-}
-
-.courses {
-    border-right: 1px solid lightgrey;
 }
 
 footer {
