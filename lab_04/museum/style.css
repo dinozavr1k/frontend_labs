@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header>a {
+    text-decoration: none;
+}
+
+.bg-color {
+    background-color: black;
+    width: 450px;
+    height: 799px;
+    display: flex;
+}
+
+.header-img img {
+
+    width: 540px;
+    height: 800px;
+}
+
+.header-elements {
+    display: flex;
+}
