@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+summary::before {
+    content: '📁';
+    margin-right: 3px;
+}
+
+
+.file {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.file::before {
+    content: '📄';
+    margin-right: 3px;
+}
+
+.selected {
+    background-color: #f0f0f0;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] > summary::before {
+    content: '📂';
+    margin-right: 3px;
+}

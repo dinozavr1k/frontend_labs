@@ -9,6 +9,8 @@ lab_03 [Planets](http://dinozavr1k.github.io/frontend_labs/lab_03/planets/).
 
 lab_06 [Calculator](https://dinozavr1k.github.io/frontend_labs/lab_06/calculator/).
 
+lab_08 [Filemanager](https://dinozavr1k.github.io/frontend_labs/lab_08/file manager/).
+
 lab_09 [Cards](https://dinozavr1k.github.io/frontend_labs/lab_09/cards/).
 
 
