@@ -1,0 +1,89 @@
+body {
+    background-color: #222;
+    color: #7e604d;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    width: fit-content;
+    padding: 0px 600px
+}
+
+#grid-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#grid-container div {
+    border-style: solid;
+    border-color: rgb(91, 91, 91);
+    border-width: 2px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: rgba(109, 16, 16, 0.108);
+}
+
+img {
+    width: 270px;
+    height: 200px;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+#grid-container div:hover {
+    background-color: rgba(65, 0, 0, 0.342);
+    font-size: 20px;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.tank-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.tank-info-box {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+  
+.tank-info-box h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+  
+.tank-info-box p {
+    font-size: 18px;
+    text-align: center;
+}
+  
+.close-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    width: 7%;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+  
+.close-btn:hover {
+    background-color: #d32f2f;
+}

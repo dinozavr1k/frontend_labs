@@ -15,7 +15,7 @@ lab_08 [File_manager](https://dinozavr1k.github.io/frontend_labs/lab_08/filemana
 
 lab_09 [Cards](https://dinozavr1k.github.io/frontend_labs/lab_09/cards/).
 
-
+lab_10 [Cards](https://dinozavr1k.github.io/frontend_labs/lab_10/tanks/).
 
 
 
