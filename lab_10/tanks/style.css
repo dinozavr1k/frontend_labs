@@ -34,56 +34,10 @@ img {
 h1 {
     margin: 0px;
     text-align: center;
+    color: #7e604d;
 }
 
-#grid-container div:hover {
-    background-color: rgba(65, 0, 0, 0.342);
-    font-size: 20px;
-    transition: 0.3s;
-    transform: scale(1.05);
+a {
+    text-decoration: none;    
 }
 
-.tank-container {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.tank-info-box {
-    background-color: #444;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-  
-.tank-info-box h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-  
-.tank-info-box p {
-    font-size: 18px;
-    text-align: center;
-}
-  
-.close-btn {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-    display: block;
-    width: 7%;
-    text-align: center;
-    transition: background-color 0.3s;
-}
-  
-.close-btn:hover {
-    background-color: #d32f2f;
-}
