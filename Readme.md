@@ -9,7 +9,7 @@ lab_03 [Planets](http://dinozavr1k.github.io/frontend_labs/lab_03/planets/).
 
 lab_06 [Calculator](https://dinozavr1k.github.io/frontend_labs/lab_06/calculator/).
 
-lab_07 [Guess_Number](https://dinozavr1k.github.io/frontend_labs/lab_07/guess_number/).
+lab_07 [Guess_Number](https://dinozavr1k.github.io/frontend_labs/lab_07/guessnumber/).
 
 lab_08 [File_manager](https://dinozavr1k.github.io/frontend_labs/lab_08/filemanager/).
 
