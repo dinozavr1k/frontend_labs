@@ -7,6 +7,8 @@ lab_02 [Black&White](http://dinozavr1k.github.io/frontend_labs/lab_02/black%20&%
 
 lab_03 [Planets](http://dinozavr1k.github.io/frontend_labs/lab_03/planets/).
 
+lab_04 [museum](http://dinozavr1k.github.io/frontend_labs/lab_04/museum/).
+
 lab_06 [Calculator](https://dinozavr1k.github.io/frontend_labs/lab_06/calculator/).
 
 lab_07 [Guess_Number](https://dinozavr1k.github.io/frontend_labs/lab_07/guessnumber/).
