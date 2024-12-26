@@ -34,10 +34,6 @@ header {
   position: relative;
 }
 
-.header1 {
-  font-size: larger;
-}
-
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 96px;
@@ -47,6 +43,9 @@ h1 {
   word-spacing: 10px;
   mix-blend-mode: exclusion;
   color: white;
+  font-weight: 900;
+  position: relative;
+  right: 86px;
 }
 
 
@@ -80,14 +79,21 @@ h1 {
 }
 
 .header-pb p {
-  line-height: 4.5vh;
-  font-size: 21px;
+  line-height: 30px;
+  font-weight: 300;
+  width: 91%;
+  position: relative;
+  top: 5%;
+  right: 10px;
+  font-size: 20px;
 }
 
 
 .knopka {
   display: flex;
   flex-direction: row;
+  position: relative;
+  right: 10px;
 }
 
 .knopka .b1-p {
@@ -100,6 +106,8 @@ h1 {
   font-size: 1.2em;
   border: none;
   text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
 
 .knopka .b2-p {
@@ -141,7 +149,6 @@ h1 {
 .text {
   grid-column: 1 / 3;
   grid-row: 1;
-  justify-content: center;
 }
 
 .text p {
@@ -149,7 +156,11 @@ h1 {
   font-size: 22px;
   color: #444444;
   text-align: left;
-  font-weight: 200;
+  font-weight: 300;
+  width: 70%;
+  line-height: 30px;
+  position: relative;
+  top: 20%;
 }
 
 .text h2 {
@@ -160,6 +171,10 @@ h1 {
   padding-bottom: 3%;
   text-transform: uppercase;
   font-weight: 800;
+  width: 60%;
+  line-height: 55px;
+  position: relative;
+  top: 15%;
 }
 
 
@@ -192,6 +207,7 @@ h1 {
   color: white;
   text-align: left;
   font-weight: 200;
+  width: 16em;
 }
 
 .text-2 h2 {
@@ -205,7 +221,7 @@ h1 {
 
 
 .ftr {
-  margin: 30px 0 0 0;
+  margin-top: 10%;
   background-color: #151515;
   color: white;
   padding: 4% 10%;
@@ -217,23 +233,23 @@ h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 1.8em;
   text-transform: uppercase;
+  font-weight: 800;
 }
 
 .ftr p {
-  padding: 0 0 0 5%;
-  color: white;
+  padding: 0 29%;
+  color: #ffffff;
   font-size: 1em;
   font-weight: 100;
+  line-height: 25px;
 }
 
-.ftr .ftr-icons {
+.footer-icons {
   display: flex;
-  flex-direction: row;
-}
-
-.ftr .ftr-ch {
-  width: 40%;
-  padding: 0 20% 0 10%;
+  gap: 20px;
+  font-size: 30px;
+  position: relative;
+  left: 80px;
 }
 
 
@@ -244,9 +260,568 @@ h1 {
 }
 
 .face {
-  width: 450px;
+  width: 540px;
   height: 800px;
   position: absolute;
   top: 0px;
   left: 450px;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .black-bg {
+      background-color: white;
+      width: 450px;
+      height: 800px;
+  }
+
+  .face {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 400px;
+    height: 700px;
+    object-fit: cover;
+  }
+
+  .header-pb {
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    position: relative;
+    left: 5%;
+  }
+
+  .header-pb p {
+    line-height: 30px;
+    font-weight: 300;
+    width: 105%;
+    position: relative;
+    top: 5%;
+    right: 10px;
+    font-size: 20px;
+  }
+
+  .header-pb .head-p {
+    padding-bottom: 12%;
+  }
+
+  .header-text-and-button {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 160px;
+    left: 14%;
+    flex-direction: column;
+    width: 625px;
+    z-index: 1;
+  }
+
+  h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    line-height: 70px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    color: black;
+    float: right;
+    position: relative;
+    bottom: 40px;
+    font-weight: 900;
+    font-size: 75px;
+    right: 2%;
+  }
+
+  .text h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 50px;
+    word-spacing: 0;
+    text-align: left;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 80%;
+    position: relative;
+    top: 10%;
+    line-height: 45px;
+  }
+
+  .text-2 h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 3em;
+    color: white;
+    text-align: left;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-weight: 800;
+  }
+
+  .text-2 {
+    grid-column: 4 / 6;
+    grid-row: 3;
+    background-color: #151515;
+    padding: 80px 30px;
+  }
+
+  .text p {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    color: #444444;
+    text-align: left;
+    font-weight: 300;
+    width: 95%;
+    line-height: 30px;
+    position: relative;
+    top: 15%;
+    padding-bottom: 50%;
+  }
+
+  .text-2 p {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    font-weight: 200;
+    width: 100%;
+    line-height: 30px;
+    padding-top: 20px;
+  }
+
+  .ftr {
+    margin-top: 15%;
+    background-color: #151515;
+    color: white;
+    padding: 4% 10%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+}
+
+  .ftr p {
+    padding: 0;
+    color: white;
+    font-size: 1em;
+    font-weight: 200;
+    width: 80%;
+    text-align: justify;
+    padding-top: 20px;
+  }
+
+  .footer-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    padding-right: 8%;
+    padding-top: 3%;
+  }
+
+  .ftr h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 130px;
+    line-height: 22px;
+  }
+
+  .end-text {
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: -40px;
+    line-height: 25px;
+    font-size: 13px;
+  }
+
+  .knopka {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 10px;
+    font-size: 30px;
+  }
+
+  .knopka .b1-p {
+    padding: 20px 40px;
+    background-color: #151515;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+  }
+
+  .knopka .b2-p {
+    padding: 17px 25px;
+    background-color: #d5966c;
+    color: #ffffff;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 1.2em;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  header {
+    padding-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .content {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  header {
+    padding-bottom: 0vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 670px;
+  }
+
+  .black-bg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .face {
+    width: 320px;
+    height: 210px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .header-text-and-button {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    left: 12%;
+  }
+
+  h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 120px;
+    line-height: 110px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    color: #151515;
+    font-weight: 900;
+    position: relative;
+    right: 10px;
+    top: 120%;
+    width: 580px;
+  }
+
+  .header-pb {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+
+  .header-pb p {
+    line-height: 55px;
+    font-weight: 300;
+    width: 170%;
+    position: relative;
+    top: 35px;
+    font-size: 33px;
+  }
+
+  .header-pb .head-p {
+    width: 49vh;
+  }
+
+  .knopka {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: fit-content;
+  }
+
+  .knopka .b1-p {
+    padding: 30px 80px;
+    background-color: #151515;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .b2-p svg {
+    width: 20px;
+    height: 52px;
+  }
+
+
+  .knopka .b2-p {
+    padding: 0px 50px;
+    background-color: #d5966c;
+    color: #ffffff;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 1.2em;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  main {
+    box-sizing: border-box;
+  }
+
+  .content {
+    max-width: 80%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    left: 8%;
+  }
+
+  .text {
+    order: 2;
+  }
+
+  .body-photo-1 {
+    order: 1;
+  }
+
+  .body-photo-2 {
+    order: 3;
+  }
+
+  .body-photo-3 {
+    order: 4;
+  }
+
+  .text-2 {
+    order: 5;
+  }
+
+  .body-photo-1>img {
+    width: 289px;
+    height: 320px;
+    position: relative;
+    right: 10px;
+  }
+
+  .body-photo-2>img {
+    width: 289px;
+    height: 480px;
+    position: relative;
+    right: 10px;
+  }
+
+  .body-photo-3>img {
+    width: 289px;
+    height: 200px;
+    position: relative;
+    right: 10px;
+  }
+
+
+  .text h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 40px;
+    word-spacing: 0;
+    text-align: left;
+    padding-bottom: 3vh;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 300px;
+    line-height: 35px;
+    position: relative;
+    right: 10px;
+  }
+
+  .text p {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    color: #444444;
+    text-align: left;
+    font-weight: 300;
+    width: 101%;
+    line-height: 25px;
+    position: relative;
+    right: 10px;
+  }
+
+
+  .text-2 {
+    width: 249px;
+    height: 180px;
+    padding-top: 50px;
+    position: relative;
+    right: 10px;
+  }
+
+  .text-2 h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding-bottom: 10%;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 900;
+  }
+
+  .text-2 p {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    font-weight: 200;
+    width: 100%;
+    line-height: 25px;
+  }
+
+
+  .header-text-and-button {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    left: 8%;
+  }
+
+  h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    word-spacing: 0px;
+    color: #151515;
+    font-weight: 900;
+    position: relative;
+    right: 10px;
+    width: 580px;
+  }
+
+  .header-pb p {
+    line-height: 25px;
+    font-weight: 300;
+    width: 285px;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+  }
+
+  .knopka {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 260px;
+    height: 62px;
+    bottom: 30px;
+  }
+
+  .knopka .b1-p {
+    padding: 0px 25px;
+    background-color: #151515;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    height: 62px;
+  }
+
+  .knopka .b2-p {
+    padding: 0px 20px;
+    background-color: #d5966c;
+    color: #ffffff;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 1.2em;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 62px;
+  }
+
+  .b2-p svg {
+    width: 8px;
+    height: 24px;
+  }
+
+  .ftr {
+    margin-top: 30%;
+    background-color: #151515;
+    color: white;
+    width: 290px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0px 0px 30px;
+  }
+
+  .ftr h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 26px;
+    width: fit-content;
+  }
+
+  .ftr p {
+    padding: 0px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    width: 265px;
+  }
+
+  .footer-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+  }
 }
