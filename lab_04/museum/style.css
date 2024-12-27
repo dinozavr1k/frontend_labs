@@ -510,7 +510,7 @@ h1 {
   }
 
   .face {
-    width: 320px;
+    width: -webkit-fill-available;
     height: 210px;
     object-fit: cover;
     position: absolute;
