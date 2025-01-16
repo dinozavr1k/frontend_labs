@@ -604,6 +604,8 @@ main {
 
 
 
+
+
 footer {
     width: 100%;
     background: black;
@@ -620,10 +622,8 @@ footer {
 }
 
 .about-us {
-    background-color: gray;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 5px blue;
 }
 
 .about-us p {
@@ -678,10 +678,8 @@ footer {
 
 
 .pays {
-    background-color: gray;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 5px blue;
     height: 210px;
 }
 
@@ -699,19 +697,16 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 3px white;
+    
 }
 
 
 
 .partner {
-    background-color: gray;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 5px blue;
     height: 110px;
 }
 
@@ -725,9 +720,7 @@ footer {
 
 .partner img {
     width: 100px;
-    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 3px white;
 }
 
 
@@ -783,11 +776,9 @@ footer {
 }
 
 .call-us {
-    background-color: gray;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 5px blue;
 }
 
 .call-us p {
@@ -812,7 +803,6 @@ footer {
     display: flex;
     flex-direction: row;
     border-radius: 10px;
-    box-shadow: 0 0 3px blue;
 }
 
 .other-info p {
