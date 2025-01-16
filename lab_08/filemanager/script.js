@@ -14,6 +14,7 @@ const folderStructure = [
             }
         ]
     },
+    
     {
         "Documents": [
             "empty"
