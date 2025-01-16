@@ -19,5 +19,5 @@ lab_09 [Cards](https://dinozavr1k.github.io/frontend_labs/lab_09/cards/).
 
 lab_10 [Tanks](https://dinozavr1k.github.io/frontend_labs/lab_10/tanks/).
 
-Project_Work [ProjectWork](https://dinozavr1k.github.io/frontend_labs/Project_Work/projectwork/).
+Curse_Work [CurseWork](https://dinozavr1k.github.io/frontend_labs/Curse_Work/Work/).
 
