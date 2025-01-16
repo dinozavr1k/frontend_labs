@@ -23,7 +23,7 @@ body {
 .animation-cup-left {
     position: absolute;
     top: 180px;
-    left: 30px;
+    left: 23px;
     width: fit-content;
 }
 
@@ -49,7 +49,7 @@ body {
 .animation-cup-right {
     position: absolute;
     bottom: 1600px;
-    right: 30px;
+    right: 23px;
     width: fit-content;
 }
 
